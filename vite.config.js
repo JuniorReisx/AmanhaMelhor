@@ -16,12 +16,12 @@ export default defineConfig({
         theme_color: '#6494ed',
         icons: [
           {
-            src: '/public/meioRemove.png',
+            src: '/meioRemove.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/public/meioRemove.png',
+            src: '/meioRemove.png',
             sizes: '512x512',
             type: 'image/png',
           },
