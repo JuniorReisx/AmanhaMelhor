@@ -1,14 +1,16 @@
-
-.containerImgCarousel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    width: 100%;
-    height: auto;
+.containerImgCarousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  height: auto;
 }
-.ImgCarousel{
-    width: 30%;
-    height: auto;
-    border-radius: 10px;
+.ImgCarousel {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+.carousel {
+  padding: 1rem 8rem;
 }

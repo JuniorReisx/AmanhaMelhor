@@ -12,14 +12,17 @@ function Carousel() {
     dots: true,              // Exibe os pontos de navegação
     infinite: true,          // Loop infinito
     speed: 500,              // Velocidade da transição
-    slidesToShow: 2,         // Quantos slides mostrar por vez
+    slidesToShow: 3,         // Quantos slides mostrar por vez
     slidesToScroll: 1,       // Quantos slides avançar por vez
-    autoplay: true,          // Carrossel automático
+    autoplay: false,          // Carrossel automático
     autoplaySpeed: 3000,     // Velocidade de transição do autoplay
   };
 
   return (
-    <div className="carousel">
+  
+  <>
+  <section className='sectionCarousel'>
+  <div className="carousel">
       <Slider {...settings}>
         <div className='containerImgCarousel'>
           <img  className='ImgCarousel' src={Greenpeace} alt="Slide 1" />
@@ -35,6 +38,10 @@ function Carousel() {
         </div>
       </Slider>
     </div>
+  </section>
+  
+  </>
+    
   );
 }
 

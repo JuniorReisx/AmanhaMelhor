@@ -3,9 +3,13 @@
  justify-content: center;
  align-items: center;
 }
-.MeioAmbienteImg{
+.MeioAmbienteImg {
     border-radius: 0.5rem;
+    /* Você pode adicionar mais estilos, se necessário */
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -19,4 +23,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/* Media query para telas menores que 600px */
+@media (max-width: 600px) {
+    .MeioAmbienteImg {
+        width: 90%; /* Largura menor para dispositivos móveis */
+        border-radius: 0.25rem; /* Borda menor para dispositivos móveis */
+    }
+}
+
+/* Media query para telas entre 600px e 960px */
+@media (min-width: 600px) and (max-width: 960px) {
+    .MeioAmbienteImg {
+        width: 80%; /* Largura ajustada para tablets */
+    }
+}
+
+/* Media query para telas maiores que 960px */
+@media (min-width: 960px) {
+    .MeioAmbienteImg {
+        width: 70%; /* Largura padrão para desktop */
+    }
 }
