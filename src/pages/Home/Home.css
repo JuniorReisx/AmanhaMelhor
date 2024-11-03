@@ -1,0 +1,22 @@
+.sectionImg{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.MeioAmbienteImg{
+    border-radius: 0.5rem;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+    background-color: #fff; /* Defina a cor de fundo para o header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    padding: 10px 20px;
+}
+.containerONGS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

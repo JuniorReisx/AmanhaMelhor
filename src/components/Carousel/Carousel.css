@@ -1,0 +1,14 @@
+
+.containerImgCarousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+}
+.ImgCarousel{
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
