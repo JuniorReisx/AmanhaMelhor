@@ -14,3 +14,11 @@
 .carousel {
   padding: 1rem 8rem;
 }
+
+
+/* Media query para telas menores que 600px */
+@media (max-width: 600px) {
+  .ImgCarousel {
+    width: 100%; /* Largura de 100% em telas pequenas */
+  }
+}
