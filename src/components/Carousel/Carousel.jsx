@@ -12,7 +12,7 @@ function Carousel() {
     dots: true,              // Exibe os pontos de navegação
     infinite: true,          // Loop infinito
     speed: 500,              // Velocidade da transição
-    slidesToShow: 3,         // Quantos slides mostrar por vez
+    slidesToShow: 4,         // Quantos slides mostrar por vez
     slidesToScroll: 1,       // Quantos slides avançar por vez
     autoplay: false,          // Carrossel automático
     autoplaySpeed: 3000,     // Velocidade de transição do autoplay
