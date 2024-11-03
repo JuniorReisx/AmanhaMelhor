@@ -6,39 +6,37 @@
   width: 100%;
   height: auto;
 }
+
 .ImgCarousel {
-  width: 50%;
+  width: 50%; /* Largura padrão */
   height: auto;
   border-radius: 10px;
 }
+
 .carousel {
   padding: 1rem 8rem;
 }
 
-
 /* Media query para telas menores que 600px */
 @media (max-width: 600px) {
   .ImgCarousel {
-    width: 120%; /* Largura de 100% em telas pequenas */
-    padding: 1rem 1rem;
+    width: 100%; /* Ajuste para 100% em telas pequenas */
+    padding: 0; /* Remover padding se necessário */
   }
 }
-
 
 /* Media query para telas entre 600px e 960px */
 @media (min-width: 600px) and (max-width: 960px) {
   .ImgCarousel {
     width: 80%; /* Largura ajustada para tablets */
-    padding: 1rem 1rem;
-
+    padding: 0; /* Remover padding se necessário */
   }
 }
 
 /* Media query para telas maiores que 960px */
 @media (min-width: 960px) {
   .ImgCarousel {
-      width: 70%; /* Largura padrão para desktop */
-    padding: 1rem 1rem;
-
+    width: 70%; /* Largura padrão para desktop */
+    padding: 0; /* Remover padding se necessário */
   }
 }
