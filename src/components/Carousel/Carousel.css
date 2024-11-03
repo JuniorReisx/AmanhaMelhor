@@ -20,6 +20,7 @@
 @media (max-width: 600px) {
   .ImgCarousel {
     width: 120%; /* Largura de 100% em telas pequenas */
+    padding: 1rem 1rem;
   }
 }
 
@@ -28,6 +29,8 @@
 @media (min-width: 600px) and (max-width: 960px) {
   .ImgCarousel {
     width: 80%; /* Largura ajustada para tablets */
+    padding: 1rem 1rem;
+
   }
 }
 
@@ -35,5 +38,7 @@
 @media (min-width: 960px) {
   .ImgCarousel {
       width: 70%; /* Largura padrão para desktop */
+    padding: 1rem 1rem;
+
   }
 }
