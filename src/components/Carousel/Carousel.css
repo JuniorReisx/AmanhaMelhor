@@ -19,6 +19,21 @@
 /* Media query para telas menores que 600px */
 @media (max-width: 600px) {
   .ImgCarousel {
-    width: 100%; /* Largura de 100% em telas pequenas */
+    width: 120%; /* Largura de 100% em telas pequenas */
+  }
+}
+
+
+/* Media query para telas entre 600px e 960px */
+@media (min-width: 600px) and (max-width: 960px) {
+  .ImgCarousel {
+    width: 80%; /* Largura ajustada para tablets */
+  }
+}
+
+/* Media query para telas maiores que 960px */
+@media (min-width: 960px) {
+  .ImgCarousel {
+      width: 70%; /* Largura padrão para desktop */
   }
 }
