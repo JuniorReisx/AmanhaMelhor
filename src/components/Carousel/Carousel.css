@@ -20,15 +20,18 @@
 /* Media query para telas menores que 600px */
 @media (max-width: 600px) {
   .ImgCarousel {
-    width: 100%; /* Ajuste para 100% em telas pequenas */
+    width: 60%; /* Ajuste para 100% em telas pequenas */
     padding: 0; /* Remover padding se necessário */
+  }
+  .carousel {
+    padding: 1rem 1rem;
   }
 }
 
 /* Media query para telas entre 600px e 960px */
 @media (min-width: 600px) and (max-width: 960px) {
   .ImgCarousel {
-    width: 80%; /* Largura ajustada para tablets */
+    width: 70%; /* Largura ajustada para tablets */
     padding: 0; /* Remover padding se necessário */
   }
 }
