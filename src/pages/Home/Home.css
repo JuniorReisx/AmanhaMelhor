@@ -29,7 +29,7 @@
 /* Media query para telas menores que 600px */
 @media (max-width: 600px) {
     .MeioAmbienteImg {
-        width: 13rem; /* Largura menor para dispositivos móveis */
+        width: 16rem; /* Largura menor para dispositivos móveis */
         border-radius: 0.25rem; /* Borda menor para dispositivos móveis */
     }
 }
