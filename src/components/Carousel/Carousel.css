@@ -36,10 +36,3 @@
   }
 }
 
-/* Media query para telas maiores que 960px */
-@media (min-width: 960px) {
-  .ImgCarousel {
-    width: 70%; /* Largura padrão para desktop */
-    padding: 0; /* Remover padding se necessário */
-  }
-}
