@@ -41,7 +41,7 @@ function Header() {
               <ListItemIcon>
                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
               </ListItemIcon>
-              <ListItemText primary={text} />
+              <ListItemText primary={text} className="list-item-text" />
             </ListItemButton>
           </ListItem>
         ))}

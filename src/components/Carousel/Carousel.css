@@ -6,6 +6,9 @@
   width: 100%;
   height: auto;
 }
+.sectionCarousel{
+  padding: 2rem 0rem;
+}
 
 .ImgCarousel {
   width: 50%; /* Largura padrão */
@@ -25,6 +28,9 @@
   }
   .carousel {
     padding: 1rem 1rem;
+  }
+  .sectionCarousel{
+    padding: 2rem 0rem;
   }
 }
 

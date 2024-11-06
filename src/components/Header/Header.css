@@ -8,6 +8,10 @@
     font-weight: bold;
     color: green;
 }
+.list-item-text {
+    font-size: 30px;
+}
+
 
 /* Media query para telas menores que 600px */
 @media (max-width: 600px) {
@@ -21,6 +25,10 @@
         font-weight: bold;
         color: green;
     }
+    .list-item-text {
+        font-size: 50px;
+    }
+    
 }
 
 /* Media query para telas entre 600px e 960px */
@@ -34,6 +42,9 @@
         font-size: 1.8rem;
         font-weight: bold;
         color: green;
+    }
+    .list-item-text {
+        font-size: 50px;
     }
 }
 
