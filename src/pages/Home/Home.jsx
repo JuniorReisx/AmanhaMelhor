@@ -4,6 +4,7 @@ import "./Home.css";
 import Carousel from "../../components/Carousel/Carousel.jsx";
 import IconCard from "../../components/IconCard/IconCard.jsx";
 import DoacaoCard from "../../components/DoacaoCard/DoacaoCard.jsx";
+import VolunCadastro from "../../components/VolunCadastro/VolunCadastro.jsx";
 
 function Home() {
   return (
@@ -28,17 +29,18 @@ function Home() {
           <Carousel />
         </section>
         <div className="containerDoacao">
-        <h3>Doação</h3>
-          </div>
+          <h3>Doação</h3>
+        </div>
         <section className="sectionDoar">
-
-          <DoacaoCard/>
-          <DoacaoCard/>
-          <DoacaoCard/>
-
-          teste
+          <DoacaoCard />
+          <DoacaoCard />
+          <DoacaoCard />
         </section>
-
+        <section className="sectionCadas">
+          <div className="login-form-container">
+            <VolunCadastro />
+          </div>
+        </section>
       </main>
     </>
   );

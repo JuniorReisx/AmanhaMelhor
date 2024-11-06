@@ -30,6 +30,18 @@
     justify-content: center;
     align-items: center;
 }
+.login-form-container{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255,255,255,.9);
+}
+
+.login-form-container.active{
+    top:0;
+}
 
 
 /* Media query para telas menores que 600px */
@@ -52,7 +64,14 @@
     .MeioAmbienteImg {
         width: 70%; /* Largura padrão para desktop */
     }
+    form {
+        width: 50%; /* Reduz a largura do formulário */
+        padding: 20px; /* Ajusta o padding */
+        margin: 0 auto; /* Centraliza o formulário */
+    }
+    
 }
+
 
 .icons-container{
     display: grid;
