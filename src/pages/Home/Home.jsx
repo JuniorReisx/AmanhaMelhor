@@ -36,7 +36,7 @@ function Home() {
           <DoacaoCard/>
           <DoacaoCard/>
 
-          {/* teste */}
+          teste
         </section>
 
       </main>
