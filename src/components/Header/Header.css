@@ -8,3 +8,46 @@
     font-weight: bold;
     color: green;
 }
+
+/* Media query para telas menores que 600px */
+@media (max-width: 600px) {
+    .span1{
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #000;
+    }
+    .span2{
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: green;
+    }
+}
+
+/* Media query para telas entre 600px e 960px */
+@media (min-width: 600px) and (max-width: 960px) {
+    .span1{
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #000;
+    }
+    .span2{
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: green;
+    }
+}
+
+/* Media query para telas maiores que 960px */
+@media (min-width: 960px) {
+    .span1{
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #000;
+    }
+    .span2{
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: green;
+    }
+    
+}

@@ -31,9 +31,9 @@ function Home() {
           <h3>Doação</h3>
         </div>
         <section className="sectionDoar">
-          <DoacaoCard />
-          <DoacaoCard />
-          <DoacaoCard />
+          <DoacaoCard num='R$ 50' />
+          <DoacaoCard num='R$ 100'/>
+          <DoacaoCard  num='R$ 200+'/>
         </section>
         <section className="sectionCadas">
           <div className="login-form-container">
