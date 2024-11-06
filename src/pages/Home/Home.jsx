@@ -17,10 +17,9 @@ function Home() {
           <img src={ambiente} alt="" className="MeioAmbienteImg" />
         </section>
         <section className="icons-container">
-          <IconCard />
-          <IconCard />
-          <IconCard />
-          <IconCard />
+          <IconCard title="ONGS" num='50+' />
+          <IconCard  title="Voluntarios" num='150+' />
+          <IconCard  title="Pontos de Coletas" num='60+' />
         </section>
         <section>
           <div className="containerONGS">

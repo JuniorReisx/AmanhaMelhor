@@ -1,13 +1,15 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { FaRecycle } from "react-icons/fa";
+
 import './IconCard.css'
-function IconCard() {
+function IconCard({title,num}) {
     return (
         <div className="icons">
-            {/* <FontAwesomeIcon icon={faHome} /> */}
+         <FaRecycle size={30} />
             <div className="content">
-                <h3>150+</h3>
-                <p>Ongs</p>
+                <h3><strong>{num} </strong></h3>
+                <p><strong>{title}</strong></p>
             </div>
         </div>
     );

@@ -1,12 +1,17 @@
-.icons{
-    background:#fff;
+.icons {
+    background: #fff;
     display: flex;
     align-items: center;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
-    padding:2rem;
-    gap:1.5rem;
+    padding: 2rem;
+    gap: 1.5rem;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Suaviza a transição da cor */
+}
+
+.icons:hover {
+    background-color: rgb(3, 196, 3); /* Cor de fundo ao passar o mouse */
 }
 
 
