@@ -23,18 +23,21 @@ function Home() {
         </section>
         <section>
           <div className="containerONGS">
-            <h3>ONGS</h3>
+            <h3 className="title">ONGS</h3>
           </div>
           <Carousel />
         </section>
+        <section className="pai">
         <div className="containerDoacao">
-          <h3>Doação</h3>
+          <h3 className="title">Doação</h3>
         </div>
         <section className="sectionDoar">
           <DoacaoCard num='R$ 50' />
           <DoacaoCard num='R$ 100'/>
           <DoacaoCard  num='R$ 200+'/>
         </section>
+        </section>
+      
         <section className="sectionCadas">
           <div className="login-form-container">
             <VolunCadastro />

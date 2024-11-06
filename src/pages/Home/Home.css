@@ -42,7 +42,15 @@
 .login-form-container.active{
     top:0;
 }
-
+.pai{
+    background: #eee;
+}
+.title{
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    color: black;
+    text-transform: uppercase;
+  }
 
 /* Media query para telas menores que 600px */
 @media (max-width: 600px) {
